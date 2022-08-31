@@ -1,3 +1,119 @@
 body {
     background-image: url('pictures/man-2264825_1280.jpg');
 }
+
+
+div > img{
+    filter: invert(100%);
+    height: 100px;
+    width: 100px;
+}
+div > h5{
+    margin: auto;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    
+   
+}
+.logo{
+    display: inline;
+    position: absolute;
+}
+.menu{
+   
+    width: 50%;
+    margin: 30px auto;
+    display: block;
+}
+.menu li{
+    display: inline;
+    
+    padding: 10px;
+    margin: 40px;
+   
+    
+    
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
+.menu li a:hover , .login a:hover{
+    color: black;
+
+}
+.menu li:hover ,.login a:hover{
+    background-color:gray;
+    border: 1px white solid;
+    text-decoration: underline;
+    border-radius: 20px;
+    
+}
+.login{
+    width: 4%;
+   padding: 10px;
+   display: inline;
+   position: absolute;
+    top: 10px;
+    
+    right: 180px;  
+    margin: 10px; 
+}
+.login a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.social-logos ul li a img{
+    height: 20px;
+    width: 20px;
+    filter: invert(100%);
+    padding: 3px;
+   
+    
+}
+.social-logos ul li{
+    display: inline;
+    position: relative;
+    width: 50%;
+    
+    
+}
+.social-logos{
+   
+    position: absolute;
+    width: 10%;
+    top: 10px;
+    right: 20px;
+}
+.heading{
+    color: white;
+    position:relative;
+    justify-content: center;
+    
+    padding-top: 110px;
+    padding-left: 380px;
+}
+.sub-heading{
+    color: white;
+    padding-left: 470px;
+}
+.book-now button{
+    border-radius: 50px;
+    width: 100px;
+    padding: 15px;
+    background-color: gray;
+    
+}
+.book-now{
+    padding-top: 50px;
+    padding-left: 550px;
+}
+.book-now button a{
+    color:white;
+    text-decoration: none;
+}
+.book-now button:hover{
+    background-color: rgb(32, 22, 22);
+}
