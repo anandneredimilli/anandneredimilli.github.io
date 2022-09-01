@@ -117,3 +117,48 @@ div > h5{
 .book-now button:hover{
     background-color: rgb(32, 22, 22);
 }
+table ,tr,td{
+     
+    position: relative;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 110px;
+}
+
+div table tr td{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.plans-heading{
+    
+    color: white;
+    text-align: center;
+    margin-top: 130px;
+    font-size: 18px;
+    
+}
+.cards{
+    display:flex;
+    margin: 10px;
+    
+}
+.card{
+    border: white solid 2px;
+    color: white;
+    width: 30%;
+    height: 500px;
+    margin: 20px;
+}
+article header{
+    color: white;
+}
+header h2{
+    text-align: center;
+}
+.plans-button{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
