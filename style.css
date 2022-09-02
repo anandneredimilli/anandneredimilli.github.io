@@ -1,5 +1,5 @@
 body {
-    background-image: url('pictures/man-2264825_1280.jpg');
+    background-image: url('pictures/aboutbg.jpg');
 }
 
 
@@ -162,4 +162,24 @@ header h2{
     padding: 10px;
     font-size: 16px;
     
+}
+.about-article{
+    display: inline-block;
+    width: 300px;
+   
+    margin:10px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+.about-img{
+    width: 200px;
+    height: 200px;
+    
+    margin-left: 15px ;
+    filter: invert(100%);
+}
+.articlediv{
+   
+    margin-top: 150px;
 }
