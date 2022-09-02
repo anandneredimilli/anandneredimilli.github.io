@@ -1,0 +1,33 @@
+.login{
+    margin-top: 110px;
+    margin-left: 500px;
+    color: black;
+    font-size: 20px;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    
+
+
+}
+body{
+    background-image: url("pictures/man-2264825_1280.jpg");
+}
+input{
+    border:none;
+    width: 250px;
+    border-bottom: black 1px solid;
+    outline: none;  
+}
+button{
+    background-color: gray;
+    padding: 10px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: darkslategray;
+}
